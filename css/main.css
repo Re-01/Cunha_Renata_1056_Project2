@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../fonts/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.hidden
+{
+    display: none;
+}
+
+#container
+{
+    width: 700px;
+    margin: 0 auto;
+}
+
+#container
+{
+    width: 650px;
+    height: 40px;    
+    margin-top: auto;
+    padding-left: 100px;
+    padding-right: 10px;
+}
+
+#mainNav
+{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #367eb0
+}
+
+body
+{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.image-pic 
+{
+	width: 50%;
+	height: 20px; 
+	margin: 20px;
+	display: inline-block;
+}
+
+img 
+{
+	width: 100%;
+	display: inline-block;
+}
+
+h1
+{
+	    font-family: 'alex_brushregular', times, sans-serif;
+	    font-size: 45px;
+}
+
+h1
+{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 38px;
+    letter-spacing: -1px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+p
+{
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+
+#mainFooter
+{
+    width: 1009px;
+    height: 45px;
+    background-color: #442916;
+    margin: 0 auto;
+}
