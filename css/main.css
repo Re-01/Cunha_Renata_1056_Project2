@@ -1,8 +1,8 @@
-@charset "utf-8";
+@charset "UTF-8";
 /* CSS Document */
 
 @font-face {
-    font-family: 'alex_brushregular';
+    font-family: Helvetica;
     src: url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
          url('../fonts/alexbrush-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -15,75 +15,168 @@
     display: none;
 }
 
-#container
-{
-    width: 700px;
-    margin: 0 auto;
-}
-
-#container
-{
-    width: 650px;
-    height: 40px;    
-    margin-top: auto;
-    padding-left: 100px;
-    padding-right: 10px;
-}
-
-#mainNav
-{
-    width: 300px;
-    margin-top: 20px;
-    margin-left: 20px;
-    background-color: #367eb0
-}
-
 body
 {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica', Arial, sans-serif;
     font-size: 16px;
-}
-
-.image-pic 
-{
-	width: 50%;
-	height: 20px; 
-	margin: 20px;
-	display: inline-block;
-}
-
-img 
-{
-	width: 100%;
-	display: inline-block;
-}
-
-h1
-{
-	    font-family: 'alex_brushregular', times, sans-serif;
-	    font-size: 45px;
-}
-
-h1
-{
-    font-family: "Times New Roman", Times, serif;
-    font-size: 38px;
-    letter-spacing: -1px;
-    margin-top: 20px;
-    margin-bottom: 20px; 
+    color: #333;
+    background-color: #fff;
+    border-top: 10px solid #333;
 }
 
 p
 {
-    line-height: 24px;
-    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#container
+{
+    margin: 0 auto;
+    width: 980px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #d1d1d1;
+}
+
+#mainHeader
+{
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+#mainNav
+{
+    display: flex;    
+    height: 40px;
+    width: 550px;
+    margin-top: 20px;
+}
+
+#mainNav ul
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#mainNav ul li a
+{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    color: #000;
 }
 
 
+.introCon h2
+{
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.introCon > p
+{
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.introImage
+{
+  
+    margin-bottom: 20px;
+}
+
+.traaWork
+{
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;  
+}
+
+
+.featureCon
+{
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 34px;
+    margin-bottom: 20px;
+   
+}
+
+.featureCon p
+{
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    margin-left: 5px;
+}
+   
+.featureImage1 img
+{
+    width: 980px;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.featureCon img
+{
+    width: 980px;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.featureCon h3
+{
+    font-size: 12px;
+
+}
+
 #mainFooter
 {
-    width: 1009px;
-    height: 45px;
-    background-color: #442916;
-    margin: 0 auto;
+    display: flex;    
+    height: 40px;
+    width: 550px;
+    margin-top: 20px;
+}
+
+#mainFooter ul
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#mainFooter ul li a
+{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    color: #000;
+}
+
+#mainFooter
+{
+    width: 1000px;
+    height: 10px;
+    background-color: #367eb0;
+    margin-left: -10px;
 }
